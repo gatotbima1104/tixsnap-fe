@@ -19,7 +19,7 @@ const Navbar: React.FC<NavbarProps> = ({ brandName = "TixSnap" }) => {
   ];
 
   return (
-    <nav className="bg-purple-600 shadow-sm">
+    <nav className="shadow-sm" style={{ backgroundColor: "#252A34" }}>
       <div className="max-w-7xl mx-purple 5x-4 pr-3 pl-6">
         <div className="flex justify-between h-16">
           {/* TixSnap Logo */}
@@ -40,7 +40,7 @@ const Navbar: React.FC<NavbarProps> = ({ brandName = "TixSnap" }) => {
                 {link.title}
               </a>
             ))}
-            <button className="border-2 border-white text-white px-4 py-1 rounded-3xl hover:bg-blue-600 hover:text-white transition-transform: duration-200 hover:scale-110">
+            <button className="border-2 border-white text-white px-4 py-1 rounded-3xl hover:bg-teal-400 hover:text-white transition-transform: duration-200 hover:scale-110">
               Login
             </button>
           </div>
